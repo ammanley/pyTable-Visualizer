@@ -22,7 +22,7 @@ Expected Program Output: "grey_ions.png", "red_ions.png", "green_ions.png", "blu
 1. Spin up a virtual environment using your tool of choice (virtualenv or virtualenvwrapper seem popular)
 2. Once inside your environment, pip install -r requirements.txt
 3. If you have a different data file you want to use, rename it to "data.inp" and remove the current data.inp file
-4. Run "python ionpath.py" to run the script and output your visualizations
+4. Run "python app.py" to run the script and output your visualizations
 
 ### Functions
 
