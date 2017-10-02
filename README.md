@@ -4,6 +4,11 @@ This is a simple script to visualize the relative density of different ion types
 
 When run, the program searches the local directory for a inp or hdf5 data file and outputs a set of image files based on how many grey/red/green/blue colored ions appear at each grid pixel. Ion count visualizations can be modified based on desired size and ion scaling (for helping to see small or really large ion counts). Currently hardcoded to return PNG RGB images.
 
+Expected Program Input: "data.inp" 
+
+Expected Program Output: grey_ions.png, red_ions.png, green_ions.png, blue_ions.png, rgb_ions.png
+
+
 ### Requirements
 
     - Python 3.x
@@ -19,11 +24,7 @@ When run, the program searches the local directory for a inp or hdf5 data file a
 3. If you have a different data file you want to use, rename it to "data.inp" and remove the current data.inp file
 4. Run "python ionpath.py" to run the script and output your visualizations
 
-### Docs
-
-Program Input: "data.inp" 
-
-Program Output: grey_ions.png, red_ions.png, green_ions.png, blue_ions.png, rgb_ions.png
+### Functions
 
 - scale(number, multiplier)
     - Very simple function that returns the ion counts multiplied to be larger or smaller.
