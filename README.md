@@ -22,6 +22,7 @@ When run, the program searches the local directory for a inp or hdf5 data file a
 ### Docs
 
 Program Input: "data.inp" 
+
 Program Output: grey_ions.png, red_ions.png, green_ions.png, blue_ions.png, rgb_ions.png
 
 - scale(number, multiplier)
