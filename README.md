@@ -1,4 +1,4 @@
-# Ion pyTable-Visualizer
+# Ion pyTable Visualizer
 
 This is a simple script to visualize the relative density of different ion types in a given raster image dataset. 
 
