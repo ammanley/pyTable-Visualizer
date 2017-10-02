@@ -27,7 +27,7 @@ Expected Program Output: "grey_ions.png", "red_ions.png", "green_ions.png", "blu
 ### Functions
 
 - scale(number, multiplier)
-    - Very simple function that returns the ion counts multiplied to be larger or smaller.
+    - Returns an integer of "number" multiplied by "multiplier", and constrains results within the acceptable RGB range. If return value is lower than 0, returns 0; if higher than 255, returns 255.
 
 - find_ions(counts, color)
     - Takes a "counts" array of ion counts and the "color" of ion to look for; returns an integer of ion counts.

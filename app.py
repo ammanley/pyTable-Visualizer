@@ -36,7 +36,13 @@ def find_ions(counts,color):
 
 # For modifying scale of input RGB values for high/low ion counts
 def scale(number, multiplier):
-    return round(number*multiplier)
+    out_number = round(number*multiplier)
+    if out_number < 0:
+    	return 0
+    elif out_number > 255:
+    	return 255
+    else:
+    	return out_number
 
 grey_image = create_image(256,256)
 red_image = create_image(256,256)
